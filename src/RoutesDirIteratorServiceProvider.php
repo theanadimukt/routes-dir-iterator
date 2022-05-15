@@ -22,7 +22,14 @@ class RoutesDirIteratorServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package->name('routes-dir-iterator');
+    }
 
+    /**
+     * packageRegistered
+     *
+     * @return void
+     */
+    public function packageRegistered() {
         // Register a class in the service container
         $this->app->bind('routes-dir-iterator', function ($app) {
             return new RoutesDirIterator();
