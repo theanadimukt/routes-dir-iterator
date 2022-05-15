@@ -46,7 +46,7 @@ Route::get('/posts', function () {
 web.php - Use of package's `RoutesDirIterator` facade class.
 
 ```php
-use Theanadimukt\RoutesDirIterator\Facades\RoutesDirIterator;
+use TheAnadimukt\RoutesDirIterator\Facades\RoutesDirIterator;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth')

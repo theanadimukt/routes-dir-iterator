@@ -1,6 +1,6 @@
 <?php
 
-namespace Theanadimukt\RoutesDirIterator;
+namespace TheAnadimukt\RoutesDirIterator;
 
 class RoutesDirIterator
 {

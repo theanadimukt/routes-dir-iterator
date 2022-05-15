@@ -19,7 +19,7 @@
     verbose="true"
 >
     <testsuites>
-        <testsuite name="Theanadimukt Test Suite">
+        <testsuite name="TheAnadimukt Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Theanadimukt\\RoutesDirIterator\\": "src",
-            "Theanadimukt\\RoutesDirIterator\\Database\\Factories\\": "database/factories"
+            "TheAnadimukt\\RoutesDirIterator\\": "src",
+            "TheAnadimukt\\RoutesDirIterator\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Theanadimukt\\RoutesDirIterator\\Tests\\": "tests"
+            "TheAnadimukt\\RoutesDirIterator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Theanadimukt\\RoutesDirIterator\\RoutesDirIteratorServiceProvider"
+                "TheAnadimukt\\RoutesDirIterator\\RoutesDirIteratorServiceProvider"
             ],
             "aliases": {
-                "RoutesDirIterator": "Theanadimukt\\RoutesDirIterator\\Facades\\RoutesDirIterator"
+                "RoutesDirIterator": "TheAnadimukt\\RoutesDirIterator\\Facades\\RoutesDirIterator"
             }
         }
     },

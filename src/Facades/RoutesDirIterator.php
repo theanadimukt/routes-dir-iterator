@@ -1,11 +1,11 @@
 <?php
 
-namespace Theanadimukt\RoutesDirIterator\Facades;
+namespace TheAnadimukt\RoutesDirIterator\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Theanadimukt\RoutesDirIterator\RoutesDirIterator
+ * @see \TheAnadimukt\RoutesDirIterator\RoutesDirIterator
  */
 class RoutesDirIterator extends Facade
 {

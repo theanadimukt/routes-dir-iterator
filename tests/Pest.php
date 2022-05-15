@@ -1,5 +1,5 @@
 <?php
 
-use Theanadimukt\RoutesDirIterator\Tests\TestCase;
+use TheAnadimukt\RoutesDirIterator\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
