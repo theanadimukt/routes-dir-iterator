@@ -2,8 +2,8 @@
 
 namespace TheAnadimukt\RoutesDirIterator\Tests;
 
-use TheAnadimukt\RoutesDirIterator\RoutesDirIteratorServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use TheAnadimukt\RoutesDirIterator\RoutesDirIteratorServiceProvider;
 
 class TestCase extends Orchestra
 {
