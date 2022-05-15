@@ -1,9 +1,9 @@
 # Routes Directory Iterator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/anadimukt/routes-dir-iterator.svg?style=flat-square)](https://packagist.org/packages/anadimukt/routes-dir-iterator)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/anadimukt/routes-dir-iterator/run-tests?label=tests)](https://github.com/anadimukt/routes-dir-iterator/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/anadimukt/routes-dir-iterator/Check%20&%20fix%20styling?label=code%20style)](https://github.com/anadimukt/routes-dir-iterator/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/anadimukt/routes-dir-iterator.svg?style=flat-square)](https://packagist.org/packages/anadimukt/routes-dir-iterator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/theanadimukt/routes-dir-iterator.svg?style=flat-square)](https://packagist.org/packages/theanadimukt/routes-dir-iterator)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/theanadimukt/routes-dir-iterator/run-tests?label=tests)](https://github.com/theanadimukt/routes-dir-iterator/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/theanadimukt/routes-dir-iterator/Check%20&%20fix%20styling?label=code%20style)](https://github.com/theanadimukt/routes-dir-iterator/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/theanadimukt/routes-dir-iterator.svg?style=flat-square)](https://packagist.org/packages/theanadimukt/routes-dir-iterator)
 
 This package contains a `RoutesDirIterator` facade class that you can use to register segregate routes from nested directories at one place.
 
@@ -12,7 +12,7 @@ This package contains a `RoutesDirIterator` facade class that you can use to reg
 You can install the package via composer:
 
 ```bash
-composer require anadimukt/routes-dir-iterator
+composer require theanadimukt/routes-dir-iterator
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ Route::get('/posts', function () {
 web.php - Use of package's `RoutesDirIterator` facade class.
 
 ```php
-use Anadimukt\RoutesDirIterator\Facades\RoutesDirIterator;
+use Theanadimukt\RoutesDirIterator\Facades\RoutesDirIterator;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth')

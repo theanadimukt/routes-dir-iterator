@@ -1,6 +1,6 @@
 <?php
 
-namespace Anadimukt\RoutesDirIterator;
+namespace Theanadimukt\RoutesDirIterator;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

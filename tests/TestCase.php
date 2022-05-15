@@ -1,8 +1,8 @@
 <?php
 
-namespace Anadimukt\RoutesDirIterator\Tests;
+namespace Theanadimukt\RoutesDirIterator\Tests;
 
-use Anadimukt\RoutesDirIterator\RoutesDirIteratorServiceProvider;
+use Theanadimukt\RoutesDirIterator\RoutesDirIteratorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Anadimukt\\RoutesDirIterator\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Theanadimukt\\RoutesDirIterator\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -1,12 +1,12 @@
 {
-    "name": "anadimukt/routes-dir-iterator",
+    "name": "theanadimukt/routes-dir-iterator",
     "description": "Iterate nested directories for segregated routes",
     "keywords": [
-        "anadimukt",
+        "theanadimukt",
         "laravel",
         "routes-dir-iterator"
     ],
-    "homepage": "https://github.com/anadimukt/routes-dir-iterator",
+    "homepage": "https://github.com/theanadimukt/routes-dir-iterator",
     "license": "MIT",
     "authors": [
         {
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Anadimukt\\RoutesDirIterator\\": "src",
-            "Anadimukt\\RoutesDirIterator\\Database\\Factories\\": "database/factories"
+            "Theanadimukt\\RoutesDirIterator\\": "src",
+            "Theanadimukt\\RoutesDirIterator\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Anadimukt\\RoutesDirIterator\\Tests\\": "tests"
+            "Theanadimukt\\RoutesDirIterator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Anadimukt\\RoutesDirIterator\\RoutesDirIteratorServiceProvider"
+                "Theanadimukt\\RoutesDirIterator\\RoutesDirIteratorServiceProvider"
             ],
             "aliases": {
-                "RoutesDirIterator": "Anadimukt\\RoutesDirIterator\\Facades\\RoutesDirIterator"
+                "RoutesDirIterator": "Theanadimukt\\RoutesDirIterator\\Facades\\RoutesDirIterator"
             }
         }
     },
