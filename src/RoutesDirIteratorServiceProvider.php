@@ -29,7 +29,8 @@ class RoutesDirIteratorServiceProvider extends PackageServiceProvider
      *
      * @return void
      */
-    public function packageRegistered() {
+    public function packageRegistered()
+    {
         // Register a class in the service container
         $this->app->bind('routes-dir-iterator', function ($app) {
             return new RoutesDirIterator();
